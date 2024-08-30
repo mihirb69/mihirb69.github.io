@@ -3,12 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"
+    <title>The Chic Loft</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="background-color:rgb(250,250,250)">Hello Bros</h1>
-    <h2 style="background-color: rgb(250,250,250)">Welcome Bros</h2>
-    <a href="https://youtu.be/dQw4w9WgXcQ"><img src="clickme.jpg"></a>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container"> 
+            <!-- Logo -->
+            <a href="http://127.0.0.1:5500/index.html" id="logo-link">
+                <video id="myVideo" autoplay loop playsinline src="Chic Loft.mp4" class="logo"></video>
+            </a>
+
+            <div class="nav__menu" id="nav_menu">
+                <ul class="nav__list">
+                    <li class="dropdown__item">
+                        <!-- Men button -->
+                        <div class = "nav__link dropdown__button">
+                           Men <i class='bx bx-chevron-down dropdown__arrow' ></i>
+                        </div>
+
+                        <div class = "dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Polo Shirt</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shirts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">T-shirts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shorts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Pants</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jackets</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Winter Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <!-- Women button -->
+                        <div class = "nav__link dropdown__button">
+                           Women <i class='bx bx-chevron-down dropdown__arrow' ></i>
+                        </div>
+
+                        <div class = "dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Tops</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Blouses</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shirts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dresses</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jumpsuits</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shorts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Pants</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="dropdown__link">Winter wear</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Blazers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jeans</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Workwear</a>
+                                        </li>
+                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown__item">
+                        <!-- Kids button -->
+                        <div class = "nav__link dropdown__button">
+                           Kids <i class='bx bx-chevron-down dropdown__arrow' ></i>
+                        </div>
+
+                        <div class = "dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">T-shirt</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shorts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Trousers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Polo shirt</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sweater</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Skrit</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dress</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jeans</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+                <!-- Close Button-->
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!-- Search Button -->
+                <i class='bx bx-search-alt-2 nav__search' id="search-btn" ></i>
+
+                <!-- User Button -->
+                <i class='bx bxs-user nav__user' id="user-btn"></i>
+
+                <!-- Menu Button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <!-- Cart Button -->
+                <i class='bx bxs-cart-add nav__cart' id="cart-btn"></i>
+            </div>
+        </nav>
+    </header>
+
+<!-- Search -->
+    <div class="search" id="search">
+        <form action="" class="search__form">
+            <i class='bx bx-search-alt-2 search__icon'></i>
+            <input type="search" placeholder="Search for..." class="search__input">
+        </form>
+
+    <i class='bx bx-x search__close' id="search-close"></i>
+    </div>
+
+
+    <script src="scripts.js"></script>
 </body>
 </html>
