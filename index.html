@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chic Loft</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header> 
+        <nav class="nav container"> 
+            <!-- Logo -->
+            <a href="http://127.0.0.1:5500/index.html" id="logo-link">
+                <video id="myVideo" autoplay loop playsinline src="media/Chic Loft.mp4" class="logo"></video>
+            </a>
+
+            <!-- Navigation Menu -->
+            <div class="nav__menu" id="nav_menu">
+                <ul class="nav__list">
+                    <li class="dropdown__item">
+                        <!-- Men button -->
+                        <div class = "nav__link dropdown__button">
+                           Men <i class='bx bx-chevron-down dropdown__arrow' ></i>
+                        </div>
+
+                        <div class = "dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Polo Shirt</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shirts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">T-shirts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shorts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Pants</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jackets</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Winter Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <!-- Women button -->
+                        <div class = "nav__link dropdown__button">
+                           Women <i class='bx bx-chevron-down dropdown__arrow' ></i>
+                        </div>
+
+                        <div class = "dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Tops</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Blouses</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shirts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dresses</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jumpsuits</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shorts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Pants</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="dropdown__link">Winter wear</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Blazers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jeans</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Workwear</a>
+                                        </li>
+                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown__item">
+                        <!-- Kids button -->
+                        <div class = "nav__link dropdown__button">
+                           Kids <i class='bx bx-chevron-down dropdown__arrow' ></i>
+                        </div>
+
+                        <div class = "dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">T-shirt</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Shorts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Trousers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Polo shirt</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sweater</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Skrit</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dress</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="dropdown__link">Jeans</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+                <!-- Close Button-->
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!-- Search Button -->
+                <i class='bx bx-search-alt-2 nav__search' id="search-btn" ></i>
+
+                <!-- User Button -->
+                <i class='bx bxs-user nav__user' id="user-btn"></i>
+
+                <!-- Menu Button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <!-- Cart Button -->
+                <i class='bx bxs-cart-add nav__cart' id="cart-btn"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+    <!-- New Arrivals -->
+    <section id="home">
+        <div class = "home-content">
+            <h5>NEW ARRIVALS</h5>
+            <h1><span>Elevate your style.</span></h1>
+            <p> Discover what’s new and <br> Find your next favorite look.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Men, Women, Kids-->
+    <section id="new" class="w-100">
+        <div class="row p-0 m-0">
+            <div class="one col-lg-4 col-md-12 col-12 p-0">
+                <img class="img-fluid" src="https://images.pexels.com/photos/15647600/pexels-photo-15647600/free-photo-of-a-man-in-sunglasses-sitting-on-a-concrete-block.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" atl="Men">
+                <div class="details">
+                    <h2>MEN</h2>
+                    <button class="btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="one col-lg-4 col-md-12 col-12 p-0">
+                <img class="img-fluid" src="https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=600" atl="Women">
+                <div class="details">
+                    <h2>WOMEN</h2>
+                    <button class="btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="one col-lg-4 col-md-12 col-12 p-0">
+                <img class="img-fluid" src="https://images.pexels.com/photos/5559990/pexels-photo-5559990.jpeg?auto=compress&cs=tinysrgb&w=600" atl="Kids">
+                <div class="details">
+                    <h2>KIDS</h2>
+                    <button class="btn">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Best Selling-->
+    <section class="product"> 
+        <h1 class="product-category">best selling</h1>
+        <button class="pre-btn"><i class='bx bxs-chevron-left'></i></button>
+        <button class="nxt-btn"><i class='bx bxs-chevron-right'></i></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="media/man(sweater).jpeg" class="product-thumb" alt="Man Sweater">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Galaxy men</h2>
+                    <p class="product-short-description">Men Sweater V Neck</p>
+                    <span class="price">Rs 500</span><span class="actual-price">Rs 1000 </span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="https://image.hm.com/assets/hm/ea/d2/ead22144607cf11adce1a4c870c4ef26e15daf52.jpg?imwidth=820" class="product-thumb" alt="Denim Blue Pants">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">DX Fit</h2>
+                    <p class="product-short-description">Denim Pull-on Pants</p>
+                    <span class="price">Rs 1044</span><span class="actual-price">Rs 1160</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="https://m.media-amazon.com/images/I/71U0Wo-rizL._SY879_.jpg" class="product-thumb" alt="Lymio Polyester Women Dress">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Lymio women</h2>
+                    <p class="product-short-description">Polyester Women Dress</p>
+                    <span class="price">Rs 350</span><span class="actual-price">Rs 700</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">25% off</span>
+                    <img src="https://s7g3.scene7.com/is/image/soloinvest/n04241A-4?$big_image_web$" class="product-thumb" alt="Long Sleeve Polo Shirt Men">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Prime LSL</h2>
+                    <p class="product-short-description">Long Sleeve Polycotton Polo Shirt</p>
+                    <span class="price">Rs 750</span><span class="actual-price">Rs 1000</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">13% off</span>
+                    <img src="https://m.media-amazon.com/images/I/71S7vHzJm9L._AC_SY550_.jpg" class="product-thumb" alt="Long Sleeve Polo Shirt Men">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Floral Print</h2>
+                    <p class="product-short-description">Long Sleeve Wrap V Neck Dress</p>
+                    <span class="price">Rs 1914</span><span class="actual-price">Rs 2,200</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">25% off</span>
+                    <img src="https://s7g3.scene7.com/is/image/soloinvest/n13249A?$big_image_web$" class="product-thumb" alt="Long Sleeve Polo Shirt Men">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">SUPREME KIDS</h2>
+                    <p class="product-short-description">Kids' Sweatshirt</p>
+                    <span class="price">Rs 450</span><span class="actual-price">Rs 600</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="https://image.hm.com/assets/hm/53/e7/53e73ef0cd792900cea70fb380d9dc60afe32680.jpg?imwidth=2160" class="product-thumb" alt="Denim Blue Jacket">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">DX Fit</h2>
+                    <p class="product-short-description">Relaxed Fit Denim Jacket</p>
+                    <span class="price">Rs 1300</span><span class="actual-price">Rs 1578</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">20% off</span>
+                    <img src="https://image.hm.com/assets/hm/02/b4/02b4068f2551067186054f4f25a201e0c69e97ab.jpg?imwidth=820" class="product-thumb" alt="Long Sleeve Polo Shirt Men">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Stylish</h2>
+                    <p class="product-short-description">Textured-weave Jacket</p>
+                    <span class="price">Rs 2,785</span><span class="actual-price">Rs 3480</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand -->
+    <section id="brand">
+        <div class="row">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/188px-H%26M-Logo.svg.png" alt="H&M Logo">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Amazon_2024.svg/300px-Amazon_2024.svg.png" alt="Amazon">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="https://www.sols-europe.com/static/version1723019366/frontend/Mgs/sols_vitrine/en_GB/images/logo.svg" alt="Solo Group Logo">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="https://m.media-amazon.com/images/S/stores-image-uploads-na-prod/a/AmazonStores/ATVPDKIKX0DER/3ff85330a93e89e9493662c35c826efc.w400.h400._CR0%2C0%2C400%2C400_SX200_.jpg" alt="Pretty Garden Logo">
+        </div>
+    </section>
+</main>
+
+    <!-- Search -->
+    <div class="search" id="search">
+        <form action="" class="search__form">
+            <i class='bx bx-search-alt-2 search__icon'></i>
+            <input type="search" placeholder="Search for..." class="search__input">
+        </form>
+
+    <i class='bx bx-x search__close' id="search-close"></i>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <!-- Promotional Info -->
+        <div class="footer-promos">
+            <div class="promo-item">
+                <h3>FREE SHIPPING</h3>
+                <p>On all orders over Rs 3,000</p>
+            </div>
+            <div class="promo-item">
+                <h3>FREE EXCHANGE</h3>
+                <p>Within 15 days from date of delivery</p>
+            </div>
+            <div class="promo-item">
+                <h3>PAYMENT METHODS</h3>
+                <p>Bank Transfer / Juice / Cash on Delivery</p>
+            </div>
+        </div>
+    
+        <!-- Footer Content -->
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>About Us</h2>
+                <p>The Chic Loft began with a simple vision: to make fashion accessible and enjoyable for everyone. From our humble beginnings, we have grown into a leading name in fashion, constantly evolving to meet the latest trends while maintaining our commitment to exceptional quality.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="social-icon"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Chic Loft. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
